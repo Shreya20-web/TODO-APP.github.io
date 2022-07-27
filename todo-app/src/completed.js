@@ -2,14 +2,7 @@ import React, { useState } from 'react';
 import Print from './print'
 
 function Completed() {
-    let todoobj =
-        [
-            {
-                "name": "React",
-                "des": "Revise Hooks"
-            },
-
-        ]
+    let todoobj =[]
     let [todolist, settodoobj] = useState(todoobj);
     let giveinput = () => {
         let x = prompt("enter name")

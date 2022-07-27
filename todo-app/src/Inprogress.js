@@ -2,14 +2,7 @@ import React, { useState } from 'react';
 import Print from './print'
 
 function Inprogress() {
-    let todoobj =
-        [
-            {
-                "name": "To Do App",
-                "des": "Make a to do app"
-            },
-
-        ]
+    let todoobj =[]
     let [todolist, settodoobj] = useState(todoobj);
     let giveinput = () => {
         let x = prompt("enter name")

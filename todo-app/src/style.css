@@ -21,8 +21,9 @@ body{
     height: 720px;
     left: 50px;
     top: 100px;
-    background: #F5F9F9;
+    background: #edf6fa;
     border-radius: 15px;
+    margin-top: 40px;
 }
 .box2{
     position: absolute;
@@ -30,8 +31,9 @@ body{
     height: 720px;
     left: 400px;
     top: 100px;
-    background: #F5F9F9;
+    background: #edf6fa;
     border-radius: 15px;
+    margin-top: 40px;
 }
 .box3{
     position: absolute;
@@ -39,8 +41,9 @@ body{
     height: 720px;
     left: 750px;
     top: 100px;
-    background: #F5F9F9;
+    background: #edf6fa;
     border-radius: 15px;
+    margin-top: 40px;
 }
 .card{
     width: 281.78px; 
@@ -56,7 +59,7 @@ body{
 
 }
 header{
-    background-color: #b2cac5;
+    background-color: #c7d9e3;
     display: flex;
 }
 header h1{
@@ -94,9 +97,12 @@ header h1{
     margin-bottom: 5%;
     width: 95%;
     height: 38px;
-    background: #ECF3F3;
+    background: rgb(230, 230, 230);
     border-radius: 7px;
     cursor: pointer;
+    color:black;
+    font-size: large;
+    border:none;
 }
 
 nav{
@@ -140,6 +146,8 @@ li:hover{
     font-family: 'Poppins';
     color: #212121;
     margin-left: 50px;
+    margin-bottom: 20px;
+    
 }
 .work{
     text-overflow: ellipsis;
@@ -193,3 +201,17 @@ i{
 .icons{
     margin-top: 220px;
    }
+
+.user{
+    margin-left: 80%;
+    width: 200px;
+    margin-top: -20px;
+}
+
+.search{
+    width:40%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 2px solid #ccc;
+}

@@ -2,16 +2,7 @@ import React, { useState } from 'react';
 import Print from './print'
 
 function ToDo() {
-    let todoobj =
-        [
-            {
-                "name": "Python",
-                "des": "Soon to start"
-            },
-            
-             
-
-        ]
+    let todoobj =[]
     let [todolist, settodoobj] = useState(todoobj);
     let giveinput = () => {
         let x = prompt("enter name")
